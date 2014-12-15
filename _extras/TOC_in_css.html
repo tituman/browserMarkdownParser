@@ -1,0 +1,24 @@
+	<style media="screen" type="text/css">
+		html, body {
+		  counter-reset: chapter;      /* Create a chapter counter scope */
+		  }
+
+		H1:before {
+			content: counter(chapter) ". ";
+			counter-increment: chapter;  /* Add 1 to chapter */
+		}
+		H1 {
+			counter-reset: section;      /* Set section to 0 */
+		}
+		H2:before {
+			content: counter(chapter) "." counter(section) ". ";
+			counter-increment: section;  /* Add 1 to chapter */
+		}
+		H2 {
+			counter-reset: subsection;      /* Set section to 0 */
+		}
+		H3:before {
+			content: counter(chapter) "." counter(section)  "." counter(subsection) " ";
+			counter-increment: subsection;
+		}
+	</style>
