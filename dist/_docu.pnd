@@ -7,7 +7,14 @@ Dyn(moveDynamic) // set dynamic values
 </pre>
 
 ### bli
+
 my ~~striked~~ text
+`my ~~striked~~ text in code`
+my <s>stiked text</s>
+`my ~~striked~~ text in code`
+`my <s>stiked text</s> in code`
+`my <del>stiked text</del> in code`
+
 ### Levels
 #### WT 01.04.14
 
@@ -65,7 +72,7 @@ link:
 
 self link:
 [link text](#xmlmask)
-<div id="xmlmask"/>
+<div id="xmlmask"><*/*div>
 
 pic:
 ![](./Capture1.JPG) 
