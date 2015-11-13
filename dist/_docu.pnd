@@ -77,6 +77,14 @@ self link:
 pic:
 ![](./Capture1.JPG) 
 
+code:
+```
+appldisk/application/control/teachcontrol/_system.tt/mask/
+														|
+														+- images/
+														|	|
+														|	- warning.png
+```
 Listings:
 <div class="listing"/>
 
