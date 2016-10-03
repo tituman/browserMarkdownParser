@@ -1078,15 +1078,15 @@ FXZrgsMXI1VaHS1vk6Zfapbvnj7i9/bz69/Pv7///wAGKOCAGgUEADs=" type="image/gif" >
 <h1 id="tableOfContents" style="margin-left:auto;margin-right:auto;font-size:20px">Table of Contents </h1>
 <xmp theme="united" style="display:none;">
 <div id="toc"></div>
-# add your text here
-<pre class="prettyprint lang-kairo linenums">
-// initializing 
-Tool(VacGripper1) // set gripper tool 
-Dyn(moveDynamic) // set dynamic values 
 
-</pre>
 
-### bli
+
+
+
+<!--
+### escape brackets
+&lt; &gt;
+### striked text
 
 my ~~striked~~ text
 `my ~~striked~~ text in code`
@@ -1095,7 +1095,9 @@ my <s>stiked text</s>
 `my <s>stiked text</s> in code`
 `my <del>stiked text</del> in code`
 
-### Levels
+
+
+### Levels quotes
 #### WT 01.04.14
 
 -	`[x]` Feedback Schulung an zner								 
@@ -1109,26 +1111,7 @@ my <s>stiked text</s>
 	- `[ ]` Next point1
 -	`[ ]` Next point3
 
-#### math
-$$
-\mathbf{I}_n = \left.  \left( 
-    \vphantom{
-        \begin{array}{c}
-            1\\1\\1\\1\\1
-        \end{array}
-    } 
-    \smash{
-        \underbrace{ 
-            \begin{array}{ccccc} 
-                1&0&0&\cdots &0\\ 0&1&0&\cdots &0\\ 0&0&1&\cdots &0\\ \vdots&&&\ddots&\\ 0&0&0&\cdots &1 
-            \end{array} 
-        }
-        _{n\text{ columns}}
-    } 
-    \right)\right\} \,n\text{ rows} 
-$$
-
-## bli blu
+### table:
 Level			| Topics
 ---				| ---
 Easy			| Just points, I/Os, triggers
@@ -1137,49 +1120,40 @@ Simple 			| Palletizing Wizard
 Expert			| Path Operations: Ovl, Dyn
 Professional	| WSM: Guards, Areas
 
-<!--
-table:
-Level			| Topics
----				| ---
-Easy			| Just points, I/Os, triggers
-Medium			| Cart operations: RefSys, Tool; Simple Palletizing 
-Simple 			| Palletizing Wizard
-Expert			| Path Operations: Ovl, Dyn
-Professional	| WSM: Guards, Areas
-
-link:
+### link:
 [starep_000.tgz](./starep_000.tgz)
 
-self link:
+### self link:
 [link text](#xmlmask)
 <div id="xmlmask"><*/*div>
 
-pic:
+### pic:
 ![](./Capture1.JPG) 
 
-Listings:
+### code:
+```
+appldisk/application/control/teachcontrol/_system.tt/mask/
+														|
+														+- images/
+														|	|
+														|	- warning.png
+```
+
+### (just title/tag) Listings:
 <div class="listing"/>
 
-pic with caption in center:
+### pic with caption in center:
 <center> ![](./_media/mask/images/warning.png) </center>
 <center>This is an image</center>
 
-pretty:
+### pretty:
 <pre class="prettyprint lang-kairo linenums">
 // initializing 
 Tool(VacGripper1) // set gripper tool 
 Dyn(moveDynamic) // set dynamic values 
 </pre>
 
-quote:
--	`[x]` Feedback Schulung an zner								 
-> @pnd:  bekommst du mit diesem doc.
--	`[x]` Stäubli DE
-	- `[x]` Derzeit keine offenen Themen	 
-	>> @pnd:  Er hat mir nur zwei handy bilder geschickt...   
-
-
-math (requires inet):
+### math (requires inet):
 $$
 \mathbf{I}_n = \left.  \left( 
     \vphantom{
