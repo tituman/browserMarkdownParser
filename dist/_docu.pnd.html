@@ -1078,12 +1078,17 @@ FXZrgsMXI1VaHS1vk6Zfapbvnj7i9/bz69/Pv7///wAGKOCAGgUEADs=" type="image/gif" >
 <h1 id="tableOfContents" style="margin-left:auto;margin-right:auto;font-size:20px">Table of Contents </h1>
 <xmp theme="united" style="display:none;">
 <div id="toc"></div>
+# My doc
+this is a  linenums
+
+## this is a chapter
+
+chapter
 
 
 
 
 
-<!--
 ### escape brackets
 &lt; &gt;
 ### striked text
@@ -1124,13 +1129,15 @@ Professional	| WSM: Guards, Areas
 [starep_000.tgz](./starep_000.tgz)
 
 ### self link:
-[link text](#xmlmask)
-<div id="xmlmask"><*/*div>
+[link text](#myLink)
+
 
 ### pic:
-![](./Capture1.JPG) 
+![](./_mediaDocu/favicon.gif) 
 
 ### code:
+<div id="myLink"/>
+
 ```
 appldisk/application/control/teachcontrol/_system.tt/mask/
 														|
@@ -1142,8 +1149,15 @@ appldisk/application/control/teachcontrol/_system.tt/mask/
 ### (just title/tag) Listings:
 <div class="listing"/>
 
+`example listing one`
+
+<div class="listing"/>
+
+`xample listing two`
+
+
 ### pic with caption in center:
-<center> ![](./_media/mask/images/warning.png) </center>
+<center> ![](./_mediaDocu/favicon.gif) </center>
 <center>This is an image</center>
 
 ### pretty:
@@ -1171,7 +1185,7 @@ $$
     } 
     \right)\right\} \,n\text{ rows} 
 $$
--->
+
 
 
 <img alt="Embedded Image" 
@@ -2215,7 +2229,7 @@ marked.options=marked.setOptions=function(opt){merge(marked.defaults,opt);return
   if (html_with_mathjax != html) {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML";
+    script.src  = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML";
 	/*script.src  = "./_mediaDocu/MathJax-master/MathJax.js?config=TeX-AMS_HTML";*/
 
     var callback = function () {
