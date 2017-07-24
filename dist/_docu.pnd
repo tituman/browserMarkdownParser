@@ -1,9 +1,16 @@
-
-
-
-
-
 <!--
+
+# My doc
+this is a  linenums
+
+## this is a chapter
+
+chapter
+
+
+
+
+
 ### escape brackets
 &lt; &gt;
 ### striked text
@@ -44,13 +51,15 @@ Professional	| WSM: Guards, Areas
 [starep_000.tgz](./starep_000.tgz)
 
 ### self link:
-[link text](#xmlmask)
-<div id="xmlmask"><*/*div>
+[link text](#myLink)
+
 
 ### pic:
-![](./Capture1.JPG) 
+![](./_mediaDocu/favicon.gif) 
 
 ### code:
+<div id="myLink"/>
+
 ```
 appldisk/application/control/teachcontrol/_system.tt/mask/
 														|
@@ -62,8 +71,15 @@ appldisk/application/control/teachcontrol/_system.tt/mask/
 ### (just title/tag) Listings:
 <div class="listing"/>
 
+`example listing one`
+
+<div class="listing"/>
+
+`xample listing two`
+
+
 ### pic with caption in center:
-<center> ![](./_media/mask/images/warning.png) </center>
+<center> ![](./_mediaDocu/favicon.gif) </center>
 <center>This is an image</center>
 
 ### pretty:
@@ -91,4 +107,5 @@ $$
     } 
     \right)\right\} \,n\text{ rows} 
 $$
+
 -->
